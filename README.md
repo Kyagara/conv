@@ -19,18 +19,21 @@
 
 ## About
 
-This cli is based on some commands from EposVox's [WindowsMods](https://github.com/EposVox/WindowsMods) repository _(check his channel!)_, I use some of these commands from time to time and some others so I decided to make a cli since I've never made one. I plan to add some other commands from other tools like `youtube-dl`/`yt-dlp` that I use.
+This cli is based on some `ffmpeg` commands from EposVox's [WindowsMods](https://github.com/EposVox/WindowsMods) repository _(check his channel!)_, I use some of these commands from time to time and some others so I decided to make a cli since I've never made one. I plan to add some other commands from other tools like `youtube-dl`/`yt-dlp` that I use.
 
 ## Installation
 
-Make sure you have `ffmpeg` installed.
+You can install this CLI using go's `install` command: _Recommended_
 
 ```bash
-go install github.com/Kyagara/conv@latest
+go install -u github.com/Kyagara/conv@latest
 ```
+
+Or, you can download a [release](https://github.com/Kyagara/conv/releases) and place it in your PATH.
 
 ## Todo
 
+-   More comments
 -   Tests
 -   Add `Long` descriptions to commands
 -   Add some `youtube-dl`/`yt-dlp` commands
